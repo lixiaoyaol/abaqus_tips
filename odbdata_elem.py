@@ -5,7 +5,7 @@ from abaqusConstants import *
 import os
 import numpy as np
 
-filename = 'sdw2D.txt'
+filename = 'sdw2D.csv'
 
 odbname = 'sdw_2d.odb'
 instancename = 'WMZ-1'
