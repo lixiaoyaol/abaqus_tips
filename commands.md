@@ -1,5 +1,9 @@
 # abaqus commands
 
+## 显示abaqus信息
+
+- `abaqus info=system`
+
 ## 验证子程序
 
 - `abaqus verify -user_std`
