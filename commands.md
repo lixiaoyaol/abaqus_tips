@@ -25,15 +25,12 @@
 
 ## 查询命令路径
 
-- `where` in  `win cmd`
-  - `where abaqus`
-- `where.exe` in `powershell`
-  - `where.exe abaqus`
-- `Get-Command` in `powershell`
-  - `Get-Command where*`
+- `where` in  `win cmd` -> `where abaqus`
+- `where.exe` in `powershell` ->  `where.exe abaqus`
+- `Get-Command` in `powershell` ->  `Get-Command where*`
 
 ## 执行脚本中的命令
 1. 以管理员身份打开 PowerShell 输入 `set-executionpolicy remotesigned`，并输入`Y`。打开执行脚本权限
-1. 将命令写入后缀名为`ps1`的文本文件
+1. 将命令(abqus command)写入后缀名为`ps1`的文本文件:`abq_cmd.ps1`
 1. `cd` 进入文件所在目录
-1. 输入`.\filename.ps1`执行文件中的命令
+1. 输入`.\abq_cmd.ps1`执行文件中的命令
