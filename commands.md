@@ -1,4 +1,4 @@
-# abaqus commands
+# Abaqus commands
 
 ## 显示abaqus信息
 
@@ -18,4 +18,13 @@
 
 ## 后处理
 
-- `abaqus python postprocess_file.py`
+- `abaqus python postprocess_file.py`  
+
+
+# Powershell commands
+
+## 查询命令路径
+
+- `where` in  `win cmd`
+- `where.exe in `powershell`
+- `Get-Command` in `powershell`
