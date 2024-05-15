@@ -26,5 +26,5 @@
 ## 查询命令路径
 
 - `where` in  `win cmd`
-- `where.exe in `powershell`
+- `where.exe` in `powershell`
 - `Get-Command` in `powershell`
