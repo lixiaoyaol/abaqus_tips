@@ -26,5 +26,8 @@
 ## 查询命令路径
 
 - `where` in  `win cmd`
+  - `where abaqus`
 - `where.exe` in `powershell`
+  - `where.exe abaqus`
 - `Get-Command` in `powershell`
+  - `Get-Command where*`
