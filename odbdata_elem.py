@@ -22,7 +22,7 @@ target_stress = [stress_feild.values[elem_index].mises for elem_index in elem_ls
 
 simu_res_dir = os.path.join(os.getcwd(), filename)
 with open(simu_res_dir, 'w') as f:
-    f.write('Strain,Stress\n')
+    f.write('Stress\n')
     for i in range(len(elem_ls)):
         f.write('{}\n'.format(target_stress[i]))
 
