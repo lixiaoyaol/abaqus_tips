@@ -6,6 +6,7 @@ from abaqusConstants import *
 import regionToolset
 
 #needs to be changed:thisModel, time_list, amplitude_list, timePeriod, Load
+#needs to change step time in model
 
 thisModel = mdb.models['Model-1']
 
