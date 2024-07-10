@@ -42,7 +42,7 @@ subroutine uexternaldb(lop, lrestart, time, dtime, kstep, kinc)
         write(*,*) "-----------------------------------------------------------"
     end if
 
-    ! write(*,*) "uexternaldb is called!"
+    ! write(*,*) "hello uexternaldb!"
 
 end subroutine uexternaldb
 !
@@ -95,5 +95,7 @@ subroutine umat(stress, statev, ddsdde, sse,    spd,    scd,    rpl,    ddsddt,&
     end do
     !$ elastic behavior
     stress(:) = stress(:) + matmul(ddsdde(:,:), dstran(:))
+
+    ! write(*,*) "hello umat!"
 
 end subroutine umat
