@@ -20,7 +20,7 @@ subroutine uexternaldb(lop, lrestart, time, dtime, kstep, kinc)
         write(*,*) "dtime: ", dtime
         write(*,*) "kstep: ", kstep
         write(*,*) "kinc: ", kinc
-        write(*,*) "-------------------------------------------------------------"
+        write(*,*) "-----------------------------------------------------------"
     end if
 
     if (lop==1) then
@@ -29,7 +29,7 @@ subroutine uexternaldb(lop, lrestart, time, dtime, kstep, kinc)
         write(*,*) "dtime: ", dtime
         write(*,*) "kstep: ", kstep
         write(*,*) "kinc: ", kinc
-        write(*,*) "-------------------------------------------------------------"
+        write(*,*) "-----------------------------------------------------------"
     end if
 
     if (lop==2) then
@@ -38,7 +38,7 @@ subroutine uexternaldb(lop, lrestart, time, dtime, kstep, kinc)
         write(*,*) "dtime: ", dtime
         write(*,*) "kstep: ", kstep
         write(*,*) "kinc: ", kinc
-        write(*,*) "-------------------------------------------------------------"
+        write(*,*) "-----------------------------------------------------------"
     end if
 
     ! write(*,*) "uexternaldb is called!"
