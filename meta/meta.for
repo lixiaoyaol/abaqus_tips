@@ -7,6 +7,8 @@
 !
 ! include 'utils.f90'
 ! 
+!!$ User subroutine to manage user-defined external databases and 
+!!$ calculate model-independent history information.
 subroutine uexternaldb(lop, lrestart, time, dtime, kstep, kinc)
     !-------------------------------------------------------------------------80
     implicit none
@@ -45,7 +47,7 @@ subroutine uexternaldb(lop, lrestart, time, dtime, kstep, kinc)
 end subroutine uexternaldb
 !
 !
-!
+!!$ User subroutine to define a material's mechanical behavior
 subroutine umat(stress, statev, ddsdde, sse,    spd,    scd,    rpl,    ddsddt,&
     &           drplde, drpldt, stran,  dstran, time,   dtime,  temp,   dtemp, &
     &           predef, dpred,  cmname, ndi,    nshr,   ntens,  nstatv, props, &
