@@ -1,9 +1,8 @@
 !dir$ freeform
 !===============================================================================
-! Desc: ucp constitutive model with first order forward Euler explicit 
-!       integration scheme
+! Desc: uexternaldb and umat for one element test
 ! Code by: libofeng, contact info: bf_li@qq.com
-! Date: 2024-03-30
+! Date: 2024-07-10
 !===============================================================================
 !
 ! include 'utils.f90'
@@ -44,10 +43,9 @@ subroutine uexternaldb(lop, lrestart, time, dtime, kstep, kinc)
     ! write(*,*) "uexternaldb is called!"
 
 end subroutine uexternaldb
-
-
-
-
+!
+!
+!
 subroutine umat(stress, statev, ddsdde, sse,    spd,    scd,    rpl,    ddsddt,&
     &           drplde, drpldt, stran,  dstran, time,   dtime,  temp,   dtemp, &
     &           predef, dpred,  cmname, ndi,    nshr,   ntens,  nstatv, props, &
@@ -55,7 +53,7 @@ subroutine umat(stress, statev, ddsdde, sse,    spd,    scd,    rpl,    ddsddt,&
     &           npt,    layer,  kspt,   kstep,  kinc)
     !-------------------------------------------------------------------------80
     !
-    !use, only:
+    !use utilies, only:
     ! 
     !-------------------------------------------------------------------------80
     !all parameters are explicitly declared to avoid potential mistakes
