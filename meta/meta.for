@@ -13,7 +13,7 @@ subroutine uexternaldb(lop, lrestart, time, dtime, kstep, kinc)
     !-------------------------------------------------------------------------80
     implicit none
     integer(kind=4), intent(in) :: lop, lrestart, kstep, kinc
-    real(kind=8), intent(in) :: time(2), dtime(1)
+    real(kind=8), intent(in) :: time(2), dtime
     !---------------------------------------------------------------------------
     if (lop==0) then
         write(*,*) "lop: ", lop
