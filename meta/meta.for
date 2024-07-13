@@ -96,6 +96,7 @@ subroutine umat(stress, statev, ddsdde, sse,    spd,    scd,    rpl,    ddsddt,&
     !$ elastic behavior
     stress(:) = stress(:) + matmul(ddsdde(:,:), dstran(:))
 
-    ! write(*,*) "hello umat!"
+    write(*,*) "hello umat!"
+    write(*,*) "-----------------------------------------------------------"
 
 end subroutine umat
