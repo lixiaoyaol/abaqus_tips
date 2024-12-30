@@ -14,7 +14,7 @@
 
 ## 提交命令
 
-- `abaqus input = inpname.inp job=Jobname user=umat.for cpus=8 memory=8000mb ask=off int`
+- `abaqus input=inpname.inp job=Jobname user=umat.for cpus=8 memory=8000mb ask=off int`
 
 ## 后处理
 
